@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #ffeaf4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #d63384;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.tarjeta {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    max-width: 400px;
+}
+
+.tarjeta h2 {
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4fa3;
+    transform: scale(1.05);
+}
+
+.corazones {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    animation: flotar 2s infinite alternate;
+}
+
+@keyframes flotar {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+body {
+    background-image: url("Hello_Kitty.webp");
+    background-size: cover;      /* Ajusta la imagen a toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    min-height: 100vh;
+}
